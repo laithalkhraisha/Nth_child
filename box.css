@@ -1,0 +1,36 @@
+
+.box{
+    display: inline-block;
+    background-color:yellow ;
+    height: 60px;
+    width: 60px;
+}
+div:nth-child(even){
+    background-color:green;
+    border: 1px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: -20px;
+
+}
+
+.number{
+    margin: 50px;
+    background-color: none;
+}
+.num{
+    display: inline-block;
+    background-color: red;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    border: 2px solid black;
+
+}
+.num:nth-child(even){
+    display: none;
+}
+
